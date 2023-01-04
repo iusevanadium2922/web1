@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Pietale</title>
+    <link rel="stylesheet" href="style.css" />
+    <script src="script.js" defer></script>
+  </head>
+  <body>
+    <div class="container">
+      <aside>
+        <div class="navbar">
+          <div class="user-logo"><img src="12-ice-bear-profile-picture.jpg"" /></div>
+          <nav>
+            <ul>
+              <li class="selectedLink" name="home">Home</li>
+              <li name="about">About Me</li>
+              <li name="resume">Resume</li>
+            </ul>
+          </nav>
+        </div>
+      </aside>
+      <main>
+        <div class="card active home" data-home>
+          <div class="title">Home Page</div>
+          <div class="content">Welcome to my Portfolio Site!</div>
+        </div>
+        <div class="card about" data-about>
+          <div class="title">About Me Page</div>
+          <div class="content">I am Mourveen Isaac, 15 and I will help you setup a Minecraft Server, a Website and a store! You should provide me with your domain and Hosting/VPS so that I can help you!</div>
+        </div>
+        <div class="card resume" data-resume>
+          <div class="title">Resume Page</div>
+          <div class="content">I've setup 2 different server called FuryMC and Mundcraft (Under Devlopment). Link to FuryMC: https://mc.furymc.xyz You can trust me!
+        </div>
+      </main>
+    </div>
+    <script>
+      const showMessage = () => {
+        alert("Hello JavaScript");
+      };
+    </script>
+  </body>
+</html>
